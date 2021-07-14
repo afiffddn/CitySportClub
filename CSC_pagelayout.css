@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* file name  : CSC_pagelayout.css CSS Document */
+
+body {
+	margin:0 auto;
+	width:100%;
+	max-width:1020px;
+	min-width:640px;
+}
+
+body > nav{
+	width:20%;
+	float:left;
+	margin:0 0 0 1.5%;
+}
+
+body > article{
+	width:51%;
+	float:left;
+	margin:0 3% 0 3%;
+}
+
+body > aside {
+	width:20%;
+	float:left;
+	margin:0 1.5% 0 0;
+}
+
+body article img{
+	float:right;
+	width:40%;
+	margin:0px 0px 10px 10px;
+}
+

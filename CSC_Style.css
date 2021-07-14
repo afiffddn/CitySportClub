@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSC_Style. css CSS Document */
+
+html{
+	background-color:#FFF;
+	}
+	
+	/* Setting body style*/
+body{
+	background-color:#6C3;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#FFF;
+}
+
+nav{
+	background-color:#324538;
+}
+
+footer{
+	background-color:#006633;
+}
+
+/* HEADING STYLE*/
+
+h2{
+	font-size:2.5em;
+}
+
+/*ARTICLE STYLE*/
+article{
+	background-color:#324538;
+	color:#FFF;
+	text-align:justify;
+}
+
+#cat{
+	color:yellow;
+}
+
+#dog{
+	color:#A3FF46;
+}
+
+
+/*ASIDE STYLE*/
+aside{
+	background-color:#324538;
+}
+
+aside blockquote{
+	color:#3F9;
+}
+
+aside blockquote{
+	content:open-quote;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+}
+	
+aside blockquote{
+	content:open-quote;
+	font-family:"Times New Roman", Times, serif;
+	front weight:100px;
+}
+
+/*listing style*/
+article ul li:first-of-type{
+	list-style-image:url(runicon.png);
+}
+
+article ul li:nth-of-type(2){
+	list-style-image:url(bikeicon.png);
+}
+
+article ul li:last-of-type{
+	list-style-image:url(swimicon.png);
+}
+
+/* navigation style*/
+
+nav > ul {
+	line-height:2em;
+	list-style-type:none;
+	padding-left:5px;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited{
+	text-decoration:none;
+	color:#CF9;
+	background-color:#000;
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active{
+	color:#c03;
+	text-decoration:none;
+}
+
+/* footer style*/
+
+body > footer >  address{
+	text-align:center;
+	color:#FF6;
+}
+
+
+	
